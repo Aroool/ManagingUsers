@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/indexStyles.css">
+    <meta charset="UTF-8">
+    <title>Welcome To My CRUD Operation Application</title>
+    <link rel="stylesheet" type="text/css" th:href="@{webjars/bootstrap/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<div class="container-fluid text-center animated fadeIn">
+    <h1 class="display-4 animated bounceInDown">Welcome to My CRUD Application</h1>
+    <p class="lead animated fadeInUp delay-1s">Enter your details and manage users with ease.</p>
+
+    <a class="btn btn-primary btn-lg animated pulse infinite delay-2s" th:href="@{/users}">Manage Users Here!</a>
+</div>
+
+</body>
+</html>

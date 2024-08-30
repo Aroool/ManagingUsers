@@ -1,0 +1,90 @@
+/* Background Styles */
+body {
+    background: linear-gradient(to right, #ece9e6, #ffffff); /* Elegant gradient background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Smooth font */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Styles */
+.container {
+    background: #ffffff; /* White background for the form */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+/* Text Centering */
+.text-center h2 {
+    color: #4A4A4A;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Form Element Styles */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-color: #0066cc;
+    box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
+    outline: none;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #0066cc;
+    border-color: #0066cc;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #005bb5;
+    border-color: #005bb5;
+}
+
+.btn-secondary {
+    background-color: #cccccc;
+    border-color: #cccccc;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-secondary:hover {
+    background-color: #b3b3b3;
+    border-color: #b3b3b3;
+}
+
+/* Animation for Buttons */
+button {
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
